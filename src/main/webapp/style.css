@@ -1,0 +1,70 @@
+body
+{
+	margin=0;
+	padding:0;
+	background: url(bg.jpg);
+	background-size:cover;
+	font-family:sans-serif;
+	
+	
+	}
+.loginbox
+{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:350px;
+	height:420px;
+	padding:80px 40px;
+	box-sitting:border-box;
+	background:rgba(255,0,0,0.3);
+	}
+p
+{
+	font-family:arial;
+	fony-size:20px;
+	font-weight:normal;
+
+	}
+.user
+{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	overflow:hidden;
+	position:absolute;
+	top: calc(-100/2);
+	left:calc(50%-50px);
+}	
+h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size:24px;
+	color:black;
+}
+h3{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size:24px;
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

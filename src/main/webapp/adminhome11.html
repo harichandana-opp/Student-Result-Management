@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>add new student</title>
+
+<style>
+body{
+   backgroung-image:url(ed2.jpg);
+   background-size:cover;
+   background-attachment:fixed;
+   }
+
+form
+{
+    align:center;
+    position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:600px;
+	height:570px;
+	padding:80px 40px;
+	box-sitting:border-box;
+	background:rgba(0,0,0,0.6);
+}
+ h1
+   {
+   font-family:sans-serif;
+   text-align:center;
+    color:aqua;
+
+   }
+label{
+  width:100px;
+  display:inline-block;
+  margin:0px;
+  color:white;
+  font-size:30px;
+  }
+.Courselabel
+{
+position:relative;
+text-transform:capitalize;
+left:1px;
+
+}
+.Courselabell
+{
+position:relative;
+text-transform:capitalize;
+left:0px;
+}
+.courseinput
+{
+
+position:relative;
+left:80px;
+padding:5px;
+width:250px;
+}
+input[type="text"]
+{
+    font-size:14px;
+}
+.ref
+{
+width:250px;
+padding:10px;
+font-size:24px;
+font-weight:bold;
+background-color:bisque;
+color:black;
+border-radius:100px;
+
+}.ref:hover
+{
+ background-color:bisque;
+	color:black;
+	font-weight:bold;
+	font-size:2rem;
+}
+</style>
+</head>
+<body>
+ <body background="ed.image.jpg">
+    <div class="main">
+    <div id = "form">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      
+      <div class="thread">
+      <form  align="center" action="addnewstudent.jsp" method="post">
+         <h1 >ADD NEW STUDENT</h1>
+        <label class="Courselabel">  USN</label>
+        <input class="courseinput" type ="text" name="USN"><br>
+        <br>
+         <label class="Courselabel"> name</label>
+        <input class="courseinput" type ="text" name="name"><br>
+        <br>
+        <label class="Courselabel"> Fathername</label>
+        <input class="courseinput" type ="text" name="fathername"><br>
+        <br>
+       
+        <label class="Courselabel"> Gender</label>
+        <input class="courseinput" type ="text" name="gender"><br>
+        <br>
+        <label class="Courselabell">DateOfBirth</label>
+        <input class="courseinput" type ="text" name="dob"><br>
+        <br>
+        <label class="Courselabel"> branch </label>
+        <input class="courseinput"  type ="text" name="branch"><br>
+        <br>
+        <label  class="Courselabel"  >section</label>
+        <input class="courseinput" type ="text" name="section"><br>
+        <br>
+         <label class="Courselabel">phno</label>
+        <input class="courseinput" type ="text" name="phno"><br>
+        <br>
+       <button class="ref" type="submit" class="refer">
+                                       Save
+                                        </button>
+      </form>
+     </div>
+    </div>
+    </div>
+</body>
+
+</body>
+</html>

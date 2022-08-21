@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+h2
+{
+	color:aqua;
+}
+h1
+{
+	font-family:sans-serif;
+	text-align:center;
+	color:white;
+}
+
+.loginbox
+{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:250px;
+	height:320px;
+	padding:80px 40px;
+	box-sitting:border-box;
+	background:rgba(0,0,0,0.6);
+	}
+.refer
+{
+	position:absolute;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:120px;
+	height:40px;
+	background:MidnightBlue;
+	color:aqua;
+	font-size:28px;
+	font-family:Times New Roman;
+	
+}
+input[type="text"]
+{
+    font-size:14px;
+}
